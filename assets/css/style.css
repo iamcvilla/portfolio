@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* styles to body */
+body a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body p {
+    font-size: 16px;
+}
+
+/* syles to header */
+header {
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header div {
+    color: black;
+    display: inline-block;
+    font-size: 30px; 
+    padding: 10px; 
+    background-color: rgb(13, 204, 230); 
+    margin: 10px;">
+    text-align: margin-left;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+.hero {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/portfolio_hero.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 50px;
+}
+
+#about-me {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+
+#about-me h2 {
+    margin: 20px;
+    padding: 16px;
+    border-right: 2px solid black;   
+}
+
+#about-me p {
+    align-self: auto;
+    margin: 20px;
+    padding: 16px;
+}
+
+#work{
+    display: flex;
+    padding: 20px;
+    margin: 7px;
+}
+
+#work h2{
+    margin: 20px;
+    padding: 20px;
+    border-right: 2px solid black;
+    height: 850px;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  .content img {
+    border: 5px solid #555;
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+}
+
+#contact-me {
+    display: flex;
+    padding: 20px;
+    margin: 6px;
+}
+
+#contact-me h2 {
+    margin: 20px;
+    padding: 10px;
+    border-right: 2px solid black;   
+}
+
+#contact-me p {
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#contact-me a{
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
