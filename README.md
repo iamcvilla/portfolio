@@ -10,11 +10,11 @@ The beginning to my personal portfolio.
 https://iamcvilla.github.io/portfolio/
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/91897531/138624590-4f8f6d8e-d54e-4ba6-9ef8-98b9d46af40d.png)
+https://user-images.githubusercontent.com/91897531/140627379-f81ae812-5c87-40de-9476-fe1e22cb3033.png
 
-![image](https://user-images.githubusercontent.com/91897531/138624610-916d6575-4144-4a4b-bf5a-e5ab49dbb715.png)
+https://user-images.githubusercontent.com/91897531/140627411-01f39267-2a26-4cb6-9161-49f7828333af.png
 
-![image](https://user-images.githubusercontent.com/91897531/138624626-7d7a48ec-0bdd-46d3-96e1-d871bc4d3947.png)
+https://user-images.githubusercontent.com/91897531/140627423-cc4d2420-3d5c-4c7d-8e0a-9e3d3d7cb72d.png
 
 ## Contribution
 Made with ❤️ by Calvin Villanueva
